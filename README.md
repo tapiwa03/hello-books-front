@@ -23,6 +23,11 @@ Technologies Used:
 -JQUERY
 -BOOTSTRAP
 
+Hex Colours for the website:
+#123747
+#E3170A
+#C44900
+
 
 DONE BY 3V0L
 Contact at mapfundetl@gmail.com
