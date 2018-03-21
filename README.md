@@ -15,3 +15,19 @@ Functionalities for Librarians:
 -All the functionalities of the User profile
 -Check for all books that are overdue
 -Add, Remove and Edit Books including their details
+
+Technologies Used:
+-HTML
+-CSS
+-JAVASCRIPT
+-JQUERY
+-BOOTSTRAP
+
+Hex Colours for the website:
+#123747
+#E3170A
+#C44900
+
+
+DONE BY 3V0L
+Contact at mapfundetl@gmail.com
