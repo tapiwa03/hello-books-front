@@ -21,6 +21,7 @@ Technologies Used:
 -CSS
 -JAVASCRIPT
 -JQUERY
+-BOOTSTRAP
 
 
 DONE BY 3V0L
