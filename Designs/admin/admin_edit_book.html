@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <title>Paperback Library</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--W3CSS-->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!--Font Awesome 4.7-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Main CSS-->
+  <link rel="stylesheet" href="../css/main.css">
+  <!--Bootstrap 4.0 CDN-->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+</header>
+
+<body>
+  <!-- Nav bar -->
+  <div class="w3-bar w3-black w3-xlarge ">
+    <a href="admin_home.html" class="w3-bar-item w3-button w3-hover-white">Paperback Library</a>
+    <a href="../index.html" class="w3-bar-item w3-button w3-hide-small  w3-right w3-padding-4 w3-hover-white">Log Out</a>
+    <a href="admin_all_books.html" class="w3-bar-item w3-button w3-hide-small  w3-right w3-padding-4 w3-hover-white">Books</a>
+    <a href="admin_view_user.html" class="w3-bar-item w3-button w3-hide-small  w3-right w3-padding-4 w3-hover-white">View a User</a>
+    <a href="admin_profile.html" class="w3-bar-item w3-button w3-hide-small  w3-right w3-padding-4 w3-hover-white">My Profile</a>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium w3-hover-white" onclick="myFunction()">&#9776;</a>
+  </div>
+  <!--Nav mobile version-->
+  <div id="mobi" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
+    <a href="admin_all_books.html" class="w3-bar-item w3-button w3-hover-white">Books</a>
+    <a href="admin_view_user.html" class="w3-bar-item w3-button w3-hover-white">View a User</a>
+    <a href="admin_profile.html" class="w3-bar-item w3-button w3-hover-white">My Profile</a>
+    <a href="../index.html" class="w3-bar-item w3-button w3-hover-white">Logout</a>
+  </div>
+  <!-- End Nav-->
+
+      <!--Start of Page content-->
+      <div class="w3-container w3-center w3-border-bottom w3-padding-large ">
+          <h2 class="w3-center">
+            <u>Book Details</u>
+          </h2>
+      <div class="row col-md-6">
+          <form>
+            <div class="form-group">
+              <label for="booktitle">Book Title</label>
+              <input type="text" class="form-control" id="booktitle"  placeholder="">
+              <small id="booktitle" class="form-text text-muted">Book Title.</small>
+            </div>
+            <div class="form-group">
+              <label for="author">Author</label>
+              <input type="text" class="form-control" id="author" placeholder="">
+              <small id="author" class="form-text text-muted">Author</small>
+            </div>
+            <div class="form-group">
+              <label for="isbn">ISBN</label>
+              <input type="text" class="form-control" id="isbn" placeholder="">
+              <small id="isbn" class="form-text text-muted">ISBN</small>
+            </div>
+            
+            <div class="form-group">
+              <label for="exampleSelect1">Genre</label>
+              <select class="form-control" id="exampleSelect1">
+                <option>Horror</option>
+                <option>Comedy</option>
+                <option>Fantasy</option>
+                <option>SCi-fi</option>
+                <option>Romance</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="synopsis">Synopsis</label>
+              <textarea class="form-control" id="synopsis" rows="5" cols="10"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="InputFile">File input</label>
+              <input type="file" class="form-control-file" id="InputFile" aria-describedby="fileHelp">
+              <small id="fileHelp" class="form-text text-muted">Please enter a synopsis for this book</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+        </div>
+      <!-- End Page Content -->
+  </div>
+  <br><br><br>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-4 w3-center w3-opacity w3-light-grey w3-small navbar-fixed-bottom">
+    <p class="w3-medium">Made by 3V0L</p>
+  </footer>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
