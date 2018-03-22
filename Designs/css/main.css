@@ -1,0 +1,44 @@
+/*!
+ * Start Bootstrap - Logo Nav (https://startbootstrap.com/template-overviews/logo-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logo-nav/blob/master/LICENSE)
+ */
+
+body {
+  
+  font-family: "Lato", sans-serif;
+
+}
+
+@media (min-width: 992px) {
+
+}
+.black-background {
+  background-color:#000000;
+}
+.white {
+  color:#ffffff;
+}
+ .details li {
+      list-style: none;
+    }
+    li {
+        margin-bottom:10px;
+        
+    }
+.jumbotron{
+  position: center;
+  padding-left: 50px;
+}
+.blogShort{ border-bottom:1px solid #ddd;}
+.add{background: #333; 
+  padding: 10%; 
+  height: 300px;
+  
+}
+
+
+
+
+
+

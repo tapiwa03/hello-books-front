@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <title>Paperback Library</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--W3CSS-->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!--Font Awesome 4.7-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Main CSS-->
+  <link rel="stylesheet" href="../css/main.css">
+  <!--Bootstrap 4.0 CDN-->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+</header>
+
+<body>
+  <!-- Nav bar -->
+  <div class="w3-bar w3-black w3-xlarge ">
+    <a href="user_home.html" class="w3-bar-item w3-button w3-hover-white">Paperback Library</a>
+    <a href="../index.html" class="w3-bar-item w3-button w3-hide-small  w3-right w3-padding-4 w3-hover-white">Log Out</a>
+    <a href="user_book_view.html" class="w3-bar-item w3-button w3-hide-small  w3-right w3-padding-4 w3-hover-white">Books</a>
+    <a href="user_history.html" class="w3-bar-item w3-button w3-hide-small  w3-right w3-padding-4 w3-hover-white">Borrowing History</a>
+    <a href="user_profile.html" class="w3-bar-item w3-button w3-hide-small  w3-right w3-padding-4 w3-hover-white">My Profile</a>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium w3-hover-white" onclick="myFunction()">&#9776;</a>
+  </div>
+  <!--Nav mobile version-->
+  <div id="mobi" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
+    <a href="user_book_view.html" class="w3-bar-item w3-button w3-hover-white">Books</a>
+    <a href="user_history.html" class="w3-bar-item w3-button w3-hover-white">Borrowing History</a>
+    <a href="user_profile.html" class="w3-bar-item w3-button w3-hover-white">My Profile</a>
+    <a href="../index.html" class="w3-bar-item w3-button w3-hover-white">Logout</a>
+  </div>
+  <!-- End Nav-->
+
+      <!--Start of Page content-->
+      <div class="w3-container w3-center w3-border-bottom w3-padding-large ">
+        <h2 class="w3-center">
+          <u>Available Books</u>
+        </h2>
+      
+        <table class="w3-table-all w3-hoverable">
+          <thead>
+            <tr class="w3-light-grey">
+              <th>&nbsp;</th>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Genre</th>
+            </tr>
+          </thead>
+          <tr>
+            <td><img src="https://mdbootstrap.com/img/Photos/Others/images/7.jpg" alt="Card image cap" 
+              style="max-width: 65px; max-height: 80px"></td>
+             <td><a href="user_book_details.html">Smoke Thunder</a></td>
+            
+            <td>John Doe</td>
+            <td>Horror</td>
+          </tr>
+          <tr>
+            <td>
+                <img src="https://mdbootstrap.com/img/Photos/Others/images/40.jpg" alt="Card image cap" style="max-width: 65px; max-height: 80px">
+            </td>
+            <td><a href="user_book_details.html">Senior</a></td>
+            <td>Forest Manning</td>
+            <td>Math</td>
+          </tr>
+          <tr>
+            <td>
+                <img src="https://mdbootstrap.com/img/Photos/Others/images/17.jpg" alt="Card image cap" style="max-width: 65px; max-height: 80px">
+            </td>
+            <td><a href="user_book_details.html">Tom Cat</a></td>
+            <td>April June</td>
+            <td>Comedy</td>
+          </tr>
+        </table>
+      
+      </div>
+  <br><br><br>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-8 w3-center w3-opacity w3-white w3-small navbar-fixed-bottom">
+    <p class="w3-medium">Made by 3V0L</p>
+  </footer>
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D"
+    crossorigin="anonymous"></script>
+  <script src="../js/main.js"></script>
+  </body>
+  
+  </html>
