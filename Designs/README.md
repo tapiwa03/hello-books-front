@@ -20,13 +20,14 @@ Technologies Used:
 -HTML
 -CSS
 -JAVASCRIPT
--JQUERY
+-W3CSS
 -BOOTSTRAP
 
-Hex Colours for the website:
-#123747
-#E3170A
-#C44900
+To-Do:
+-Currently there is no DB
+-Link all the pages
+-List more features needed in a library system
+-
 
 
 DONE BY 3V0L
