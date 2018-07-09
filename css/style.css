@@ -1,0 +1,26 @@
+body {
+  padding-top: 54px;
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+container {
+  align-content: center;
+
+}
+.nav-link{
+  font-size: 20px;
+  margin-right: 5px;
+}
+.w3-btn{
+  margin: 5px;
+  margin-top: 7px
+}
