@@ -28,7 +28,3 @@ To-Do:
 -Link all the pages
 -List more features needed in a library system
 -
-
-
-DONE BY 3V0L
-Contact at mapfundetl@gmail.com
